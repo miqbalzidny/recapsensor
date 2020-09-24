@@ -1,11 +1,12 @@
 #include <Arduino.h>
 #include <GravityTDS.h>
  
-#define TdsSensorPin PA5
+#define TdsSensorPin PA7
 GravityTDS gravityTds;
  
 float temperature = 25, tdsValue = 0;
  
+ // Trial git
 void setup()
 {
     Serial.begin(115200);
